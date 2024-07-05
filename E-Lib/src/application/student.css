@@ -1,3 +1,63 @@
-.shadow{
-	-fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,0,0,0); 
+
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
 }
+
+.form-button{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 30;
+}
+
+.menu-button{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.menu-button:hover {
+	-fx-background-color: rgba(255,255,255,0.3)
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+.comboBox{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 30;
+}
+
+.linear-gradient-horizontal {
+    -fx-background-color: linear-gradient(to right, #010101, #e95d3c);
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.comboBox{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 30;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+
